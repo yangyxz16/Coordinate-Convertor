@@ -33,7 +33,7 @@ public class DTO {
 	}
 	
 	public static Station createStationObject(String name, int count) {
-		return new Station(name, count);
+		return new Station("北京市"+name, count);
 	}
 	
 }
